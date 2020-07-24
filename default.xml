@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="buildroot"
+           fetch="https://git.busybox.net/" />
+  <remote  name="boundary-github"
+           fetch="https://github.com/boundarydevices/" />
+  <default revision="master"
+           remote="buildroot"
+           sync-j="4" />
+
+  <!-- Buildroot upstream project -->
+  <project path="buildroot" name="buildroot" />
+
+  <!-- Boundary Devices packages and customizations -->
+  <project path="buildroot-external-boundary" name="buildroot-external-boundary" remote="boundary-github" />
+
+</manifest>
