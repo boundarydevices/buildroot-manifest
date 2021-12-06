@@ -5,7 +5,7 @@
            fetch="https://git.busybox.net/" />
   <remote  name="boundary-github"
            fetch="https://github.com/boundarydevices/" />
-  <default revision="master"
+  <default revision="2021.11.x"
            remote="buildroot"
            sync-j="4" />
 
