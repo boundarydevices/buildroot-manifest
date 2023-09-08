@@ -5,12 +5,12 @@
            fetch="https://git.busybox.net/" />
   <remote  name="boundary-github"
            fetch="https://github.com/boundarydevices/" />
-  <default revision="2022.08.x"
+  <default revision="2023.08.x"
            remote="buildroot"
            sync-j="4" />
 
   <!-- Buildroot upstream project -->
-  <project path="buildroot" name="buildroot" remote="boundary-github" />
+  <project path="buildroot" name="buildroot" />
 
   <!-- Boundary Devices packages and customizations -->
   <project path="buildroot-external-boundary" name="buildroot-external-boundary" remote="boundary-github" />
