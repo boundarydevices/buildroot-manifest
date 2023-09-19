@@ -10,7 +10,7 @@
            sync-j="4" />
 
   <!-- Buildroot upstream project -->
-  <project path="buildroot" name="buildroot" />
+  <project path="buildroot" name="buildroot" remote="boundary-github" />
 
   <!-- Boundary Devices packages and customizations -->
   <project path="buildroot-external-boundary" name="buildroot-external-boundary" remote="boundary-github" />
